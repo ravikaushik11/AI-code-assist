@@ -1,0 +1,21 @@
+---
+generate_code_based_on_prompt:
+  description: |-
+    Analyze the provided coding prompt: {coding_prompt} and generate complete, functional code that meets all the specified requirements. Include:
+    - Complete code implementation with proper structure
+    - Necessary imports and dependencies
+    - Error handling where appropriate
+    - Clear comments and documentation
+    - Usage examples or test cases if relevant
+    - File structure recommendations if it's a multi-file project
+    - Setup/installation instructions if needed
+  expected_output: |-
+    A complete code solution with:
+    1. Main code files with proper syntax and structure
+    2. Clear documentation and comments
+    3. Dependencies/requirements list
+    4. Setup instructions
+    5. Usage examples
+    6. Any additional configuration files needed
+    All code should be production-ready and follow best practices for the chosen technology stack.
+  agent: senior_software_developer_and_code_generator
